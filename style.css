@@ -1,0 +1,88 @@
+
+.image-frame{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 6px solid #900603;
+    padding: 10px;
+    display: inline-block;
+    border-radius:50%;
+    margin: 0 45%;
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+a{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+a:hover{
+    border: 2px solid;
+    border-color:#ffff;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(144,6,3,1) 0%, rgba(78,4,4,1) 35%, rgba(0,0,0,1) 100%);
+}
+.gradient-text{
+    background: linear-gradient(90deg, rgba(144,6,3,1) 0%, rgba(78,4,4,1) 35%, rgba(0,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px solid white;
+    color:#ffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3, h4{
+    background: rgb(144,6,3);
+    background: linear-gradient(90deg, rgba(144,6,3,1) 0%, rgba(78,4,4,1) 35%, rgba(0,0,0,1) 100%);
+    font-size: 20px;
+    padding: 1px;
+}
+h3, h4, ul, ol{
+    text-align: left;
+}
+.expertise{
+    list-style-type: square;
+}
+
+p{
+    font-size: 15px;
+    margin: 20px 0 50px 0;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-color: #908988;
+    padding-top: 10px;
+}
+tbody, thead{
+    text-align: center;
+    padding: 8px;
+}
+ol, ul, tr{
+    font-size: 15px;
+}
